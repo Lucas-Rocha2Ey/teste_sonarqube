@@ -1,28 +1,27 @@
-2024-02-29 16:24:43: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 16:24:44: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 16:25:06: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 16:25:06: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 16:25:06: WARNING - Repositório teste_sonarqube já criado!
-2024-02-29 16:25:06: INFO - Baixando as últimas atualizações do repositório teste_sonarqube
-2024-02-29 16:25:11: INFO - Repositório teste_sonarqube atualizado com sucesso
-2024-02-29 16:25:11: INFO - Arquivo sonar-project.properties já existe.
-2024-02-29 16:25:11: INFO - Compactando C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\sonarqube\ey-fso-sonarqube-v2\py\teste_sonarqube no arquivo teste_sonarqube.zip
-2024-02-29 16:25:14: INFO - Arquivo zip criado com sucesso
-2024-02-29 16:25:51: INFO - Sonar Scanner executado com sucesso
-2024-02-29 16:25:52: INFO - Resultados do scanner do repositório teste_sonarqube
-2024-02-29 16:25:52: INFO - Codigo: codigo_simples_bug.py	Linha: 1	Issue: Remove the unused function parameter "b".
-2024-02-29 16:25:52: INFO - Codigo: teste_erros.py	Linha: 21	Issue: Rename function "readFile" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 16:25:52: INFO - Codigo: teste_erros.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
-2024-02-29 16:25:52: INFO - Codigo: codigo_errado.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 16:25:52: INFO - Codigo: codigo_errado.py	Linha: 10	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 16:25:52: INFO - Codigo: interface.py	Linha: 88	Issue: Remove this commented out code.
-2024-02-29 16:25:52: INFO - Codigo: interface.py	Linha: 102	Issue: Remove this commented out code.
-2024-02-29 16:25:52: INFO - Codigo: leitor_cnh_versao2.py	Linha: 12	Issue: Remove this commented out code.
-2024-02-29 16:25:52: INFO - Codigo: leitor_cnh_versao2.py	Linha: 55	Issue: Remove this commented out code.
-2024-02-29 16:25:52: INFO - Codigo: leitor_cnh_versao2.py	Linha: 203	Issue: Remove this commented out code.
-2024-02-29 16:25:52: INFO - Código dos arquivos extraidos com sucesso
-2024-02-29 16:26:01: INFO - Arquivo codigo_errado.py escrito com sucesso
-2024-02-29 16:26:01: INFO - Arquivo codigo_simples_bug.py escrito com sucesso
-2024-02-29 16:26:01: INFO - Arquivo interface.py escrito com sucesso
-2024-02-29 16:26:01: INFO - Arquivo leitor_cnh_versao2.py escrito com sucesso
-2024-02-29 16:26:01: INFO - Arquivo teste_erros.py escrito com sucesso
+2024-02-29 16:30:09: INFO - Programa Codefix iniciado com sucesso
+2024-02-29 16:30:55: INFO - Programa Codefix iniciado com sucesso
+2024-02-29 16:30:55: INFO - Programa Codefix iniciado com sucesso
+2024-02-29 16:30:55: WARNING - Repositório teste_sonarqube já criado!
+2024-02-29 16:30:55: INFO - Baixando as últimas atualizações do repositório teste_sonarqube
+2024-02-29 16:30:58: INFO - Repositório teste_sonarqube atualizado com sucesso
+2024-02-29 16:30:58: INFO - Arquivo sonar-project.properties já existe.
+2024-02-29 16:30:58: INFO - Compactando C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\sonarqube\ey-fso-sonarqube-v2\py\teste_sonarqube no arquivo teste_sonarqube.zip
+2024-02-29 16:30:59: INFO - Arquivo zip criado com sucesso
+2024-02-29 16:31:27: INFO - Sonar Scanner executado com sucesso
+2024-02-29 16:31:27: INFO - Resultados do scanner do repositório teste_sonarqube
+2024-02-29 16:31:27: INFO - Codigo: codigo_simples_bug.py	Linha: 1	Issue: Remove the unused function parameter "b".
+2024-02-29 16:31:27: INFO - Codigo: teste_erros.py	Linha: 21	Issue: Rename function "readFile" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-02-29 16:31:27: INFO - Codigo: teste_erros.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
+2024-02-29 16:31:27: INFO - Codigo: codigo_errado.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-02-29 16:31:27: INFO - Codigo: codigo_errado.py	Linha: 10	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-02-29 16:31:27: INFO - Codigo: interface.py	Linha: 88	Issue: Remove this commented out code.
+2024-02-29 16:31:27: INFO - Codigo: interface.py	Linha: 102	Issue: Remove this commented out code.
+2024-02-29 16:31:27: INFO - Codigo: leitor_cnh_versao2.py	Linha: 12	Issue: Remove this commented out code.
+2024-02-29 16:31:27: INFO - Codigo: leitor_cnh_versao2.py	Linha: 55	Issue: Remove this commented out code.
+2024-02-29 16:31:27: INFO - Codigo: leitor_cnh_versao2.py	Linha: 203	Issue: Remove this commented out code.
+2024-02-29 16:31:27: INFO - Código dos arquivos extraidos com sucesso
+2024-02-29 16:31:38: INFO - Arquivo codigo_errado.py escrito com sucesso
+2024-02-29 16:31:38: INFO - Arquivo codigo_simples_bug.py escrito com sucesso
+2024-02-29 16:31:38: INFO - Arquivo interface.py escrito com sucesso
+2024-02-29 16:31:38: INFO - Arquivo leitor_cnh_versao2.py escrito com sucesso
+2024-02-29 16:31:38: INFO - Arquivo teste_erros.py escrito com sucesso

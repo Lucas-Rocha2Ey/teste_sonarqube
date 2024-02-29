@@ -18,7 +18,7 @@ def run_command():
     return str(result)
 
 @app.route('/api/v1/files')
-def read_file():
+def readfile():
     filepath = request.args.get('filepath')
     # Erro 3: Leitura de caminho de arquivo tratada inseguramente
     file = open( filepath , 'r') # Dangerous path traversal without checking
