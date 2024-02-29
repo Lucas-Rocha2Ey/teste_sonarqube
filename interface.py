@@ -85,7 +85,7 @@ class UI(QWidget):
 
         # Desenha a borda
         reader = easyocr.Reader(["pt"])
-        # borda = reader.readtext("./imagem_tratada.jpg", detail=1, paragraph=False)
+
         # img = Image.open("./imagem_tratada.jpg")
         print("Delimitando os campos da carteira...")
         borda = reader.readtext(img_tratada, detail=1, paragraph=False)
@@ -99,7 +99,7 @@ class UI(QWidget):
 
         # Transformar em texto continuo o texto lido pelo easyOCR
         print("Convertendo imagem a carteira para texto...")
-        # result = reader.readtext("./imagem_tratada.jpg", detail=0, paragraph=False)
+
         result = reader.readtext(path, detail=0, paragraph=False)
         self.barraProgresso.setValue(60)
         result_text = ' '.join(result)

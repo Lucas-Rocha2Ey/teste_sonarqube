@@ -9,7 +9,7 @@ path_image = "C://Users//NZ366ES//OneDrive - EY//Documents//Projeto Interno - Ci
 
 PATTERN_NOME = r"(?im)NOME\s*(?P<nome>.+)\s*DOC."
 PATTERN_RG = r"(?im)EMISSOR[A-Z\s]*(?P<rg>\d{6,9})\s*(?P<org_emissor>\w+)\s*CPF"
-# PATTERN_CPF = r"(?im)(?P<cpf>\d{3}[\s|.]\d{3}[\s|.]\d{3}[\s|-]\d{2})"
+
 PATTERN_CPF = r"(?im)CPF.+(?P<cpf>\d{3}[\s|.]*\d{3}[\s|.]*\d{3}[\s|-]*\d{2}).+FILIA"
 PATTERN_DTNASCIMENTO = r"(?im)(?P<dt_nascimento>\d{2}/\d{2}/\d{4})\s?FILIAÇÃO"
 PATTERN_FILIACAO = r"(?im)FILIAÇÃO(?P<filiacao>.+)\s?PERMISSÃO"
@@ -52,7 +52,7 @@ def exporta_cnh_texto(texto, nome_arquivo):
         f.writelines(texto)
 
 def ajeitar_cpf(cpf):
-    #PATTERN_CPF_GROUPED = r"(?im)(?P<PtUm>\d{3})[\s|.](?P<PtDois>\d{3})[\s|.](?P<PtTres>\d{3})[\s|-](?P<digitoVerif>\d{2})"
+
     PATTERN_CPF_GROUPED = r"(?im)CPF.+(?P<PtUm>\d{3})[\s|.]*(?P<PtDois>\d{3})[\s|.]*(?P<PtTres>\d{3})[\s|-]*(?P<digitoVerif>\d{2}).+FILIA"
     PATTERN_CPF_FIXED = r"\g<PtUm>.\g<PtDois>.\g<PtTres>-\g<digitoVerif>"
     return re.sub(PATTERN_CPF_GROUPED, PATTERN_CPF_FIXED, cpf)
@@ -200,7 +200,7 @@ def tratamento_carteira(path_cnh):
     return output_path
 
 
-# i = 1
+
 # for cada_cnh in os.listdir(path_image):
 #     if cada_cnh.endswith((".jpeg", ".jpg", ".png")):
 #         path = path_image + f"//{cada_cnh}"

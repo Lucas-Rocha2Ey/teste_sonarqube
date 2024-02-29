@@ -1,5 +1,5 @@
-def somar_numeros(a, b):
-    # Esta função deve retornar a soma de a e b
+def somar_numeros(a):
+    # Esta função deve retornar a soma de a e a
     resultado = a + c  # Erro: 'c' não está definido
     return resultado
 
