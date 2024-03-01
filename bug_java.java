@@ -1,13 +1,8 @@
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 public class HelloWorld {
-
-    private static final Logger logger = LogManager.getLogger(HelloWorld.class);
-
     public static void main(String[] args) {
-        logger.info("Hello, World!");
+        System.out.println("Hello, World!");
 
+        // Declaração de uma variável não utilizada - SonarQube deve detectar isso como um code smell.
         int unusedVariable = 5;
     }
 }
