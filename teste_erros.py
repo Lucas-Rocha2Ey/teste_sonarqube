@@ -31,11 +31,11 @@ def unused_function():
     print("Estou perdido aqui!")
 
 # Erro 5: Uso desnecessário de recursos em um loop
-def accumulate_large_list():
-large_list = []
+def accumulate_largeList():
+largeList = []
     for i in range(10000000):
-        large_list.append(i)
-    return sum(large_list)
+        largeList.append(i)
+    return sum(largeList)
 
 if __name__ == "__main__":
     app.run(debug = True)

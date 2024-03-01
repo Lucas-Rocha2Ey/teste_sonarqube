@@ -1,27 +1,36 @@
-2024-02-29 17:19:26: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 17:19:57: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 17:19:57: INFO - Programa Codefix iniciado com sucesso
-2024-02-29 17:19:57: WARNING - Repositório teste_sonarqube já criado!
-2024-02-29 17:19:57: INFO - Baixando as últimas atualizações do repositório teste_sonarqube
-2024-02-29 17:20:00: INFO - Repositório teste_sonarqube atualizado com sucesso
-2024-02-29 17:20:00: INFO - Arquivo sonar-project.properties já existe.
-2024-02-29 17:20:00: INFO - Compactando C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\sonarqube\ey-fso-sonarqube-v2\py\teste_sonarqube no arquivo teste_sonarqube.zip
-2024-02-29 17:20:01: INFO - Arquivo zip criado com sucesso
-2024-02-29 17:20:30: INFO - Sonar Scanner executado com sucesso
-2024-02-29 17:20:31: INFO - Resultados do scanner do repositório teste_sonarqube
-2024-02-29 17:20:31: INFO - Codigo: codigo_simples_bug.py	Linha: 1	Issue: Remove the unused function parameter "b".
-2024-02-29 17:20:31: INFO - Codigo: teste_erros.py	Linha: 21	Issue: Rename function "readFile" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 17:20:31: INFO - Codigo: teste_erros.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
-2024-02-29 17:20:31: INFO - Codigo: codigo_errado.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 17:20:31: INFO - Codigo: codigo_errado.py	Linha: 10	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
-2024-02-29 17:20:31: INFO - Codigo: interface.py	Linha: 88	Issue: Remove this commented out code.
-2024-02-29 17:20:31: INFO - Codigo: interface.py	Linha: 102	Issue: Remove this commented out code.
-2024-02-29 17:20:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 12	Issue: Remove this commented out code.
-2024-02-29 17:20:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 55	Issue: Remove this commented out code.
-2024-02-29 17:20:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 203	Issue: Remove this commented out code.
-2024-02-29 17:20:31: INFO - Código dos arquivos extraidos com sucesso
-2024-02-29 17:20:42: INFO - Arquivo codigo_errado.py escrito com sucesso
-2024-02-29 17:20:42: INFO - Arquivo codigo_simples_bug.py escrito com sucesso
-2024-02-29 17:20:42: INFO - Arquivo interface.py escrito com sucesso
-2024-02-29 17:20:42: INFO - Arquivo leitor_cnh_versao2.py escrito com sucesso
-2024-02-29 17:20:42: INFO - Arquivo teste_erros.py escrito com sucesso
+2024-03-01 07:30:37: INFO - Programa Codefix iniciado com sucesso
+2024-03-01 07:30:54: INFO - Programa Codefix iniciado com sucesso
+2024-03-01 07:30:54: INFO - Programa Codefix iniciado com sucesso
+2024-03-01 07:30:55: WARNING - Repositório teste_sonarqube já criado!
+2024-03-01 07:30:55: INFO - Baixando as últimas atualizações do repositório teste_sonarqube
+2024-03-01 07:30:57: INFO - Repositório teste_sonarqube atualizado com sucesso
+2024-03-01 07:30:57: INFO - Arquivo sonar-project.properties já existe.
+2024-03-01 07:31:20: INFO - Sonar Scanner executado com sucesso
+2024-03-01 07:31:21: INFO - Resultados do scanner do repositório teste_sonarqube
+2024-03-01 07:31:21: INFO - Codigo: codigo_errado.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-01 07:31:21: INFO - Codigo: codigo_errado.py	Linha: 10	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 2	Issue: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 6	Issue: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 7	Issue: Replace this use of System.out or System.err by a logger.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 12	Issue: Make sure "divisor" can't be zero before doing this division.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 15	Issue: Rename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 17	Issue: Remove this useless assignment to local variable "val1".
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 18	Issue: Remove this useless assignment to local variable "val2".
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 21	Issue: Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+2024-03-01 07:31:21: INFO - Codigo: codigo_java.java	Linha: 22	Issue: Rename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.
+2024-03-01 07:31:21: INFO - Codigo: codigo_simples_bug.py	Linha: 1	Issue: Remove the unused function parameter "b".
+2024-03-01 07:31:21: INFO - Codigo: interface.py	Linha: 88	Issue: Remove this commented out code.
+2024-03-01 07:31:21: INFO - Codigo: interface.py	Linha: 102	Issue: Remove this commented out code.
+2024-03-01 07:31:21: INFO - Codigo: leitor_cnh_versao2.py	Linha: 55	Issue: Remove this commented out code.
+2024-03-01 07:31:21: INFO - Codigo: leitor_cnh_versao2.py	Linha: 203	Issue: Remove this commented out code.
+2024-03-01 07:31:21: INFO - Codigo: python_bugado.py	Linha: 11	Issue: Remove the unused local variable "wrong_name".
+2024-03-01 07:31:21: INFO - Codigo: python_bugado.py	Linha: 20	Issue: Merge this if statement with the enclosing one.
+2024-03-01 07:31:21: INFO - Codigo: teste_erros.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
+2024-03-01 07:31:21: INFO - Código dos arquivos extraidos com sucesso
+2024-03-01 07:33:27: INFO - Arquivo codigo_errado.py escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo codigo_java.java escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo codigo_simples_bug.py escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo interface.py escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo leitor_cnh_versao2.py escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo python_bugado.py escrito com sucesso
+2024-03-01 07:33:27: INFO - Arquivo teste_erros.py escrito com sucesso
