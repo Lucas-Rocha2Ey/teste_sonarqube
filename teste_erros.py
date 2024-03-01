@@ -18,7 +18,7 @@ def run_command():
     return str(result)
 
 @app.route('/api/v1/files')
-def readfile():
+def read_file():
     filepath = request.args.get('filepath')
     # Erro 3: Leitura de caminho de arquivo tratada inseguramente
     file = open( filepath , 'r') # Dangerous path traversal without checking
@@ -31,11 +31,11 @@ def unused_function():
     print("Estou perdido aqui!")
 
 # Erro 5: Uso desnecessário de recursos em um loop
-def accumulate_largeList():
-largeList = []
+def accumulate__large_list():
+_large_list = []
     for i in range(10000000):
-        largeList.append(i)
-    return sum(largeList)
+        _large_list.append(i)
+    return sum(_large_list)
 
 if __name__ == "__main__":
     app.run(debug = True)

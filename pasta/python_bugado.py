@@ -1,4 +1,4 @@
-class bugClass:
+class BugClass:
     @staticmethod
     def no_parameter():
         print("No parameters here")
@@ -8,20 +8,20 @@ class bugClass:
 
 
 def wrongNameFunction():
-"This is not a compliant name"
+
     print(INVALID_VARIABLE)
 
 def string_format_issue():
-    name = "John"
+
     print("Hello %s" % age)
 
 def nested_conditions(i):
     if i < 10:
-if i < 5 and and ...:
+if i < 5 and ...:
             print("Nested conditionals")
 
 INVALID_VARIABLE = "This is defined after being used"
-bugObject = bugClass()
+bugObject = BugClass()
 bugObject.no_parameter()
 bugObject.another_error()
 
