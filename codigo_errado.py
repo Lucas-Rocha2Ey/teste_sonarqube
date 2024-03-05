@@ -1,13 +1,14 @@
+```python
 import os
 import sys
 
-def addBug(a, b):
+def add_bug(a, b):
     # This is a bug because it doesn't return any value even though it is expected to
     # Bug: Division operator `/` was mistakenly replaced with addition operator `+`
     result = a + b
     print(result) # debug line
 
-def showVulnerability(name):
+def show_vulnerability(name):
     # This is a vulnerability because using 'os.system' can allow the injection of commands
     # Vulnerability: Arbitrary OS commands execution
     os.system("echo Hello, " + name)
@@ -19,8 +20,9 @@ def main():
         name = sys.argv[1]
     else:
         name = "World"
-    showVulnerability(name)
-    addBug(2, 2)
+    show_vulnerability(name)
+    add_bug(2, 2)
 
 # This is a code smell because it's generally advisable to use the if __name__ == "__main__": construct to allow or prevent parts of code from being run when the modules are imported.
 main()
+```

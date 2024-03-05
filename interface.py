@@ -33,7 +33,7 @@ class UI(QWidget):
 
         self.interfaceInicial()
 
-        # Conectando aos bot√µes:
+        # Conectando aos botıes:
         self.buttonCarregarPhoto.clicked.connect(self.carregarFoto)
         self.pathPhoto.returnPressed.connect(self.carregarFotoLineEdit)
 
@@ -62,7 +62,7 @@ class UI(QWidget):
             self.barraProgresso.setVisible(True)
             self.lerCarteira(self.path_foto)
         else:
-            QMessageBox.warning(self, "Aten√ß√£o", "Diret√≥rio inv√°lido")
+            QMessageBox.warning(self, "AtenÁ„o", "DiretÛrio inv·lido")
             self.path_foto = ""
             self.pathPhoto.setText("")
 
@@ -85,8 +85,6 @@ class UI(QWidget):
 
         # Desenha a borda
         reader = easyocr.Reader(["pt"])
-        # borda = reader.readtext("./imagem_tratada.jpg", detail=1, paragraph=False)
-        # img = Image.open("./imagem_tratada.jpg")
         print("Delimitando os campos da carteira...")
         borda = reader.readtext(img_tratada, detail=1, paragraph=False)
         self.barraProgresso.setValue(30)
@@ -99,7 +97,6 @@ class UI(QWidget):
 
         # Transformar em texto continuo o texto lido pelo easyOCR
         print("Convertendo imagem a carteira para texto...")
-        # result = reader.readtext("./imagem_tratada.jpg", detail=0, paragraph=False)
         result = reader.readtext(path, detail=0, paragraph=False)
         self.barraProgresso.setValue(60)
         result_text = ' '.join(result)
@@ -129,13 +126,13 @@ class UI(QWidget):
         self.barraProgresso.setValue(100)
 
         # Mostrar mensagem que a carteira foi lida com sucesso
-        QMessageBox.information(self, "Parab√©ns", "Carteira lida com sucesso")
+        QMessageBox.information(self, "ParabÈns", "Carteira lida com sucesso")
 
         # Zerar a barra de progresso e remover a visibilidade da barra de progresso
         self.barraProgresso.setValue(0)
         self.barraProgresso.setVisible(False)
 
-# C√≥digo b√°sico para executar a janela
+# CÛdigo b·sico para executar a janela
 app = QApplication(sys.argv)
 window = UI()
 window.show()

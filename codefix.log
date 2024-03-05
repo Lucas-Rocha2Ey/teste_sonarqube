@@ -1,0 +1,27 @@
+2024-03-05 09:44:18: INFO - Programa Codefix iniciado com sucesso
+2024-03-05 09:44:19: INFO - Programa Codefix iniciado com sucesso
+2024-03-05 09:44:25: INFO - Programa Codefix iniciado com sucesso
+2024-03-05 09:44:25: INFO - Programa Codefix iniciado com sucesso
+2024-03-05 09:44:25: INFO - Clonando repositorio localizado em https://github.com/Lucas-Rocha2Ey/teste_sonarqube
+2024-03-05 09:44:29: INFO - Repositorio clonado com sucesso!
+2024-03-05 09:44:29: INFO - Repositorio foi clonado no diretório C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\sonarqube\ey-fso-sonarqube-v2\py\teste_sonarqube
+2024-03-05 09:44:29: INFO - Arquivo sonar-project.properties ja existe.
+2024-03-05 09:44:29: INFO - Compactando C:\Users\nq658tv\OneDrive - EY\Desktop\Repositories\sonarqube\ey-fso-sonarqube-v2\py\teste_sonarqube no arquivo teste_sonarqube.zip
+2024-03-05 09:44:30: INFO - Arquivo zip criado com sucesso
+2024-03-05 09:44:31: INFO - Resultados do scanner do repositório teste_sonarqube
+2024-03-05 09:44:31: INFO - Codigo: bug_java.java	Linha: 3	Issue: Replace this use of System.out or System.err by a logger.
+2024-03-05 09:44:31: INFO - Codigo: bug_java.java	Linha: 6	Issue: Remove this useless assignment to local variable "unusedVariable".
+2024-03-05 09:44:31: INFO - Codigo: codigo_errado.py	Linha: 4	Issue: Rename function "addBug" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-05 09:44:31: INFO - Codigo: codigo_errado.py	Linha: 10	Issue: Rename function "showVulnerability" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-05 09:44:31: INFO - Codigo: interface.py	Linha: 88	Issue: Remove this commented out code.
+2024-03-05 09:44:31: INFO - Codigo: interface.py	Linha: 102	Issue: Remove this commented out code.
+2024-03-05 09:44:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 12	Issue: Remove this commented out code.
+2024-03-05 09:44:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 55	Issue: Remove this commented out code.
+2024-03-05 09:44:31: INFO - Codigo: leitor_cnh_versao2.py	Linha: 203	Issue: Remove this commented out code.
+2024-03-05 09:44:31: INFO - Codigo: python_bugado.py	Linha: 1	Issue: Rename class "bugClass" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.
+2024-03-05 09:44:31: INFO - Codigo: python_bugado.py	Linha: 11	Issue: Remove the unused local variable "wrong_name".
+2024-03-05 09:44:31: INFO - Codigo: python_bugado.py	Linha: 15	Issue: Remove the unused local variable "name".
+2024-03-05 09:44:31: INFO - Codigo: python_bugado.py	Linha: 20	Issue: Merge this if statement with the enclosing one.
+2024-03-05 09:44:31: INFO - Codigo: teste_erros.py	Linha: 21	Issue: Rename function "readFile" to match the regular expression ^[a-z_][a-z0-9_]*$.
+2024-03-05 09:44:31: INFO - Codigo: teste_erros.py	Linha: 35	Issue: Rename this local variable "largeList" to match the regular expression ^[_a-z][a-z0-9_]*$.
+2024-03-05 09:44:31: INFO - Codigo dos arquivos extraidos com sucesso
